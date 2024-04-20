@@ -4,6 +4,24 @@
 
 Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con la misma cantidad de detalle en mi repositorio de GitHub junto a ejemplos de código.
 
-💻 Repositorio de GitHub: [Click aquí](https://github.com/VictorGutierrez610/Azure_IA_img)
+Cuaderno de Colab: [Click aquí](https://colab.research.google.com/drive/1tQ1ebKbxK0BhLUiDoIbv2nvHlXqNqxil#scrollTo=Pgdz-5wIMh-M)
 
 ¡Espero que disfrutéis de este proyecto! 😃
+
+##Configuración del Entorno
+
+Antes de empezar a probar nuestro código, hay que tener en cuenta la configuración del entorno de trabajo:
+
++ Instalación de paquetes de Azure
++ Instalación de paquetes adicionales
++ Variables de entorno
++ Archivos y directorios
+
+### Instalación de paquetes de Azure
+
+Para que nuestro código funcione correctamente en este cuaderno, necesitaremos instalar previamente los paquetes que vamos a requerir.
+
+Los paquetes que vamos a instalar son los siguientes:
+
++ [Azure ai vision imageanalysis](https://)
++ [google translate](https://)
