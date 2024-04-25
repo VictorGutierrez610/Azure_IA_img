@@ -4,7 +4,7 @@
 
 ¡Bienvenid@! 👋 esta es la documentación de mi proyecto personal sobre reconocimiento de imagenes utilizando los servicios de inteligencia artificial de Microsoft Azure, en él, se describe en detalle el código escrito mediante comentarios y ejemplos prácticos que se podrán ejecutar directamente en el cuaderno de [Python](https://www.python.org/psf-landing/) que te dejaré a continuación, el cual he creado para que puedas probar por ti mismo el código sin que tengas que hacer nada mas que tener una simple cuenta de correo gmail 😉.
 
-Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con mayor cantidad de detalle en la documentación oficial de Microsoft en GitHub.
+Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con mayor cantidad de detalle en la documentación oficial de Microsoft en GitHub. Ante todo quiero dejar claro que no soy ningún experto en materia ni de programación, ni inteligencia artificial, ni en nigún ambito relacionado con el código, de hecho, esta documentación la escribo a modo de práctica y hobby cuando todavía soy estudiante de Desarrollo de Aplicaciones Web, mientras mi propósito es desarrollarme profesionalmente en Big Data e IA. 
 
 + Documentación Microsoft: [Click aquí](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis?tabs=4-0)
 
@@ -43,7 +43,23 @@ Ten presente que en en el cuarderno de colab antes de probar la inteligencia art
 
 He decidido usar variables de entorno para preservar la seguridad e integridad de los datos proporcionados por el recurso de [Computer Vision](https://portal.vision.cognitive.azure.com/gallery/featured) creado en Azure, así proteger tanto las credeciales del recurso como la URL de extremo. Con esto te quiero decir que el código debería ser modificado en tal caso de que quieras usarlo en cualquier otro entorno con un recuerso propio. ¡RECUERDA! Es muy importante mantener siempre la mayor seguridad en nuestro código.
 
-Para 
+Para crear las variables de entorno en Window 10 la forma más sencilla es acudir a nuestra gran amiga, la consola de comandos `cmd`, en ella usaremos 
+
+
+
+
+
+*Importante*: puedes revisar las variables de entorno que tienes declaradas desde el `cmd` usando:
+```bash
+set
+```
+Con este comando te aparecerá una lista de todas las variables de entorno que están en tu entorno local de Window.
+
+También puedes conocer las variables de entorno que están declaradas para un entorno de desarrollo en concreto desde visual studio code usando: 
+```bash
+Get-ChildItem Env:
+```
+Lo cual personalmente me resulta más cómodo ya que podemos ir moviendonos entre diferentes entornos locales directamente desde visual studio code.
 
 
 
