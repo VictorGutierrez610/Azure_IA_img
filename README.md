@@ -47,8 +47,6 @@ Para crear las variables de entorno en **Window 10** la forma más sencilla es a
 
 También podemos trabajar desde **visual studio code**, lo que nos permitirá crear variables de entorno para cualquiera de los entornos locales en los que estemos trabajando sin salir del programa, para ello debemos abrir una terminal de `powershell`  
 
-
-
 >### Importante
 >Puedes revisar las variables de entorno que tienes declaradas desde el `cmd` usando:
 >```bash
@@ -62,6 +60,7 @@ También podemos trabajar desde **visual studio code**, lo que nos permitirá cr
 >```
 >Lo cual personalmente me resulta más cómodo ya que podemos ir moviendonos entre diferentes entornos locales directamente desde visual studio code.
 
+Como podrás ver en el cuarderno de **Google Colab** las variables de entorno se deben declarar y llamar de formas diferentes, la verdad es que resulta todo muy intuitivo como para explicarlo pero por si acaso, te comntaré que haciendo click en el icono de la llave de la barra lateral izquierda de nuestro cuaderno de colab se nos abrirá el apartado para nombrar y darle valor a nuestra variable de entorno. 
 
 
 
