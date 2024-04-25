@@ -2,7 +2,7 @@
 
 ## Introducción
 
-¡Bienvenid@! 👋 esta es la documentación de mi proyecto personal sobre reconocimiento de imagenes utilizando los servicios de inteligencia artificial de Microsoft Azure, en él, se describe en detalle el código escrito mediante comentarios y ejemplos prácticos que se podrán ejecutar directamente en este cuaderno de [Python](https://www.python.org/psf-landing/).
+¡Bienvenid@! 👋 esta es la documentación de mi proyecto personal sobre reconocimiento de imagenes utilizando los servicios de inteligencia artificial de Microsoft Azure, en él, se describe en detalle el código escrito mediante comentarios y ejemplos prácticos que se podrán ejecutar directamente en el cuaderno de [Python](https://www.python.org/psf-landing/) que te dejaré a continuación, el cual he creado para que puedas probar por ti mismo el código sin que tengas que hacer nada mas que tener una simple cuenta de correo gmail 😉.
 
 Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con mayor cantidad de detalle en la documentación oficial de Microsoft en GitHub.
 
@@ -24,7 +24,31 @@ Antes de empezar a probar nuestro código, hay que tener en cuenta la configurac
 
 Para que nuestro código funcione correctamente, necesitaremos instalar previamente los paquetes que vamos a utilizar en nuestro código, serán los siguientes:
 
-+ [Azure ai vision imageanalysis](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis?tabs=4-0)
-+ [google translate](https://cloud.google.com/translate/?hl=es)
++ [Azure ai vision imagean alysis](https://pypi.org/project/azure-ai-vision-imageanalysis/)
++ [google translate](https://pypi.org/project/googletrans/)
 
-Para instalar cada uno de ellos debemos hacerlo desde la consola de comandas `cmd` en nuestro sistema operativo en caso de que queramos trabajar localmente, lo haremos con `pip` 
+Para instalar cada uno de ellos debemos hacerlo desde la consola de comandas `cmd` en nuestro sistema operativo en caso de que queramos trabajar localmente, lo haremos con `pip install`:
+
++ Instalar el paquete de vision imagean alysis:
+  ```bash
+  pip install azure-ai-vision-imageanalysis
+  ```
++ Instalar el paquete de google translate:
+  ```bash
+  pip install googletrans
+  ```
+Ten presente que en en el cuarderno de colab antes de probar la inteligencia artificial de Azure, debes ejecutar las dos primeras celdas de código para instalar estos paquetes en este entorno virtual.
+
+### Variables de entorno
+
+He decidido usar variables de entorno para preservar la seguridad e integridad de los datos proporcionados por el recurso de [Computer Vision](https://portal.vision.cognitive.azure.com/gallery/featured) creado en Azure, así proteger tanto las credeciales del recurso como la URL de extremo. Con esto te quiero decir que el código debería ser modificado en tal caso de que quieras usarlo en cualquier otro entorno con un recuerso propio. ¡RECUERDA! Es muy importante mantener siempre la mayor seguridad en nuestro código.
+
+Para 
+
+
+
+
+
+
+
+
