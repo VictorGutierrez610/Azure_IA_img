@@ -43,23 +43,21 @@ Ten presente que en en el cuarderno de colab antes de probar la inteligencia art
 
 He decidido usar variables de entorno para preservar la seguridad e integridad de los datos proporcionados por el recurso de [Computer Vision](https://portal.vision.cognitive.azure.com/gallery/featured) creado en Azure, así proteger tanto las credeciales del recurso como la URL de extremo. Con esto te quiero decir que el código debería ser modificado en tal caso de que quieras usarlo en cualquier otro entorno con un recuerso propio. ¡RECUERDA! Es muy importante mantener siempre la mayor seguridad en nuestro código.
 
-Para crear las variables de entorno en Window 10 la forma más sencilla es acudir a nuestra gran amiga, la consola de comandos `cmd`, en ella usaremos 
+Para crear las variables de entorno en Window 10 la forma más sencilla es acudir a nuestra gran amiga, la consola de comandos `cmd`, en ella usaremos: `SET [variable=[cadena]]` donde `variable` es el nombre que le queremos dar y `cadena` es el valor que queremos que reciba.
 
 
 
-
-
-*Importante*: puedes revisar las variables de entorno que tienes declaradas desde el `cmd` usando:
-```bash
-set
-```
-Con este comando te aparecerá una lista de todas las variables de entorno que están en tu entorno local de Window.
-
-También puedes conocer las variables de entorno que están declaradas para un entorno de desarrollo en concreto desde visual studio code usando: 
-```bash
-Get-ChildItem Env:
-```
-Lo cual personalmente me resulta más cómodo ya que podemos ir moviendonos entre diferentes entornos locales directamente desde visual studio code.
+>*Importante*: puedes revisar las variables de entorno que tienes declaradas desde el `cmd` usando:
+>```bash
+>set
+>```
+>Con este comando te aparecerá una lista de todas las variables de entorno que están en tu entorno local de Window.
+>
+>También puedes conocer las variables de entorno que están declaradas para un entorno de desarrollo en concreto desde visual studio code usando: 
+>```bash
+>Get-ChildItem Env:
+>```
+>Lo cual personalmente me resulta más cómodo ya que podemos ir moviendonos entre diferentes entornos locales directamente desde visual studio code.
 
 
 
