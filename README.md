@@ -2,9 +2,9 @@
 
 ## Introducción
 
-¡Bienvenid@! 👋 esta es la documentación de mi proyecto personal sobre reconocimiento de imagenes utilizando los servicios de inteligencia artificial de Microsoft Azure, en él, se describe en detalle el código escrito mediante comentarios y ejemplos prácticos que se podrán ejecutar directamente en el cuaderno de [Python](https://www.python.org/psf-landing/) que te dejaré a continuación, el cual he creado para que puedas probar por ti mismo el código sin que tengas que hacer nada mas que tener una simple cuenta de correo gmail 😉.
+¡Bienvenid@! 👋 esta es la documentación de mi proyecto personal sobre reconocimiento de imagenes utilizando los servicios de inteligencia artificial de **Microsoft Azure**, en él, se describe en detalle el código escrito mediante comentarios y ejemplos prácticos que se podrán ejecutar directamente en el cuaderno de [Python](https://www.python.org/psf-landing/) que te dejaré a continuación, el cual he creado para que puedas probar por ti mismo el código sin que tengas que hacer nada mas que tener una simple cuenta de correo gmail 😉.
 
-Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con mayor cantidad de detalle en la documentación oficial de Microsoft en GitHub. Ante todo quiero dejar claro que no soy ningún experto en materia ni de programación, ni inteligencia artificial, ni en nigún ambito relacionado con el código, de hecho, esta documentación la escribo a modo de práctica y hobby cuando todavía soy estudiante de Desarrollo de Aplicaciones Web, mientras mi propósito es desarrollarme profesionalmente en Big Data e IA. 
+Se ha decidido crear esta documentación en español ya que esto mismo se encuentra explicado en inglés con mayor cantidad de detalle en la **documentación oficial de Microsoft** en GitHub. Ante todo quiero dejar claro que no soy ningún experto en materia ni de programación, ni inteligencia artificial, ni en nigún ambito relacionado con el código, de hecho, esta documentación la escribo a modo de práctica y hobby cuando todavía soy estudiante de Desarrollo de Aplicaciones Web, mientras mi propósito es desarrollarme profesionalmente en **Big Data e IA**. 
 
 + Documentación Microsoft: [Click aquí](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis?tabs=4-0)
 
@@ -14,7 +14,7 @@ Se ha decidido crear esta documentación en español ya que esto mismo se encuen
 
 ## Configuración del Entorno
 
-Antes de empezar a probar nuestro código, hay que tener en cuenta la configuración del entorno de trabajo, cabe recalcar que yo he estado usando tanto un entorno local en el SO Window 10 para programar el código, como un entorno en la nube como es Google Colab para crear la documentación de este proyecto, por lo que la configuración del entorno que contemplo en este apartado, puede cambiar para ti si usan otros sistemas diferentes, por lo pronto lo que veremos acontinuación será:
+Antes de empezar a probar nuestro código, hay que tener en cuenta la configuración del entorno de trabajo, cabe recalcar que yo he estado usando tanto un entorno local en el **SO Window 10** trabajando en **visual studio code**, como a su vez, un entorno en la nube como es **Google Colab** para crear el cuarderno de Python con cada uno de los códigos de este proyecto, por lo que la configuración del entorno que contemplo en este apartado, puede cambiar para ti si usas otros sistemas diferentes, por lo pronto lo que veremos a continuación será:
 
 + Instalación de paquetes
 + Variables de entorno
@@ -43,9 +43,9 @@ Ten presente que en en el cuarderno de colab antes de probar la inteligencia art
 
 He decidido usar variables de entorno para preservar la seguridad e integridad de los datos proporcionados por el recurso de [Computer Vision](https://portal.vision.cognitive.azure.com/gallery/featured) creado en Azure, así proteger tanto las credeciales del recurso como la URL de extremo. Con esto te quiero decir que el código debería ser modificado en tal caso de que quieras usarlo en cualquier otro entorno con un recuerso propio. **¡RECUERDA!** Es muy importante mantener siempre la mayor **seguridad en nuestro código**.
 
-Para crear las variables de entorno en Window 10 la forma más sencilla es acudir a nuestra gran amiga, la consola de comandos `cmd`, en ella usaremos: `SET [variable=[cadena]]` donde `variable` es el nombre que le queremos dar y `cadena` es el valor que queremos que reciba.
+Para crear las variables de entorno en **Window 10** la forma más sencilla es acudir a nuestra gran amiga, la consola de comandos `cmd`, en ella usaremos: `SET [variable=[cadena]]` donde `variable` es el nombre que le queremos dar y `cadena` es el valor que queremos que reciba.
 
-También 
+También podemos trabajar desde **visual studio code**, lo que nos permitirá crear variables de entorno para cualquiera de los entornos locales en los que estemos trabajando sin salir del programa, para ello debemos abrir una terminal de `powershell`  
 
 
 
